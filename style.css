@@ -1,0 +1,15 @@
+/*************************************
+                    GLOBAL SELECTORS
+*************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+    text-align: center;
+}
