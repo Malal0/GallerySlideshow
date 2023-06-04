@@ -13,3 +13,16 @@ body {
     color: hsl(0, 0%, 90%);
     text-align: center;
 }
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/*************************************
+                    GALLERY SELECTORS
+*************************************/
+
+.gallery-container {
+    border: 1px solid hsl(0, 0%, 90%);
+}
