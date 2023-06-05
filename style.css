@@ -25,4 +25,16 @@ img {
 
 .gallery-container {
     border: 1px solid hsl(0, 0%, 90%);
+    /* overflow: auto; */
+    white-space: nowrap;
+    overflow-x: scroll;
+    display: flex;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+}
+
+.slide {
+    /* width: 70vw; */
+    height: 200px;
+    width: auto;
 }
